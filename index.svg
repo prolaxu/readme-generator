@@ -1,0 +1,34 @@
+<svg  xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .small { font: italic 13px sans-serif; }
+    .heavy { font: bold 30px sans-serif; }
+    .blue{
+        color: blue;
+        font-size:1rem;
+    }
+    /* Note that the color of the text is set with the    *
+     * fill property, the color property is for HTML only */
+    .Rrrrr { font: italic 40px serif; fill: red; }
+    .container{
+         background-color: rgba(255, 255, 255, 0.61);
+         box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+         backdrop-filter: blur(10px);
+         padding:1rem;
+         border-radius:1rem;
+    }
+    .body{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(7, 109, 204);
+      padding:2rem;
+    }
+  </style>
+ <foreignObject class="node"  width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml" class="body">
+    <div class="container">
+      <div class="blue">The quick brown fox jumps over the lazy dog. Pack my box with
+         five dozen liquor jugs</div>
+    </div>
+    </body>
+  </foreignObject>
+</svg>
